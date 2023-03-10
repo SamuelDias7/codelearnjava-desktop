@@ -8,6 +8,16 @@ public class Curso {
 	public Curso() {
 		//Construtor vazio
 	}
+	
+	
+
+	public Curso(String nome, int cargaHoraria) {
+		super();
+		this.nome = nome;
+		this.cargaHoraria = cargaHoraria;
+	}
+
+
 
 	public String getNome() {
 		return nome;
